@@ -4,6 +4,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/*
+ *Code is not very "Clean". But this is intended since I'm not quite sure how Audio should be handeled with Unity.
+ *Delegates and event listeners would be my guess. I'll come back to clean this after I learn a little bit more about Unity organization.
+ */
+
 public class Rocket : MonoBehaviour {
 
     Rigidbody ship_rigidbody;
